@@ -1,5 +1,6 @@
 #!/bin/bash
 
+// Add on add here ""
 # CPU USAGE
 cpu_usage=$(top -l 1 | grep "CPU usage" | awk '{print $3}' | sed 's/%//')
 
@@ -28,4 +29,4 @@ echo "💾 RAM | $ram_usage%"
 echo "🗄️ DISK "|
 df -h /
 echo "🔋 BAT | $battery_percent%"
-}
+} //add on add here ""
