@@ -1,11 +1,7 @@
 #!/bin/bash
 
-echo "------------ System Report -------------"
-echo "📆 | $(date)"
-
 # CPU USAGE
 cpu_usage=$(top -l 1 | grep "CPU usage" | awk '{print $3}' | sed 's/%//')
-echo "🖥️ CPU | $cpu_usage%"
 
 # RAM USAGE
 ram_usage=$(vm_stat | awk '
@@ -20,12 +16,16 @@ ram_usage=$(vm_stat | awk '
     printf "%.2f", used/total*100
   }
 ')
-echo "💾 RAM | $ram_usage%"
-
-# DISK USAGE
-echo "🗄️ DISK |"
-df -h /
 
 # BATTERY
 battery_percent=$(pmset -g batt | grep -Eo "\d+%" | cut -d% -f1)
+
+{
+echo "------------ System Report -------------"
+echo "📆 | $(date)"
+echo "🖥️ CPU | $cpu_usage"
+echo "💾 RAM | $ram_usage%"
+echo "🗄️ DISK "|
+df -h /
 echo "🔋 BAT | $battery_percent%"
+}
