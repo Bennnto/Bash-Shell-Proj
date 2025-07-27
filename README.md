@@ -1,9 +1,10 @@
-# 🖥️ Simple System Monitor (Bash)
+# 🖥️ Simple System Monitor (Bash) 
+simple and lightweight 
 ## How to use
   - This is use bash shell script bin/bash
     1. Save script as Monitor.sh
-    2. Make it executable : Chmod +x Monitor.sh
-    3. Run script : bash Monitor.sh
+    2. Make it executable : <mark>Chmod +x Monitor.sh</mark> 
+    3. Run script : <mark>bash Monitor.sh</mark>
     
 | 🔧 Section     | 🖥️ Command Used                       | 📄 Description / Purpose                        |
 |----------------|----------------------------------------|--------------------------------------------------|
@@ -13,5 +14,10 @@
 | **Disk Usage** | `df -h /`                              | Shows total, used, and available disk space     |
 | **Battery**    | `pmset -g batt \| grep -Eo "\d+%"`     | Gets current battery percentage on MacBook      |
 
+## Add ON
+  - U can edit the lastest part of the script by Add this at the end of script to save loged in .txt files
+    1. by ADD ing this at the top of the file : <mark>LOGFILE="DIRECTORY/FILENAME$(date +%F).log" >> $(date+%F) Optional File.log</mark>
+    2. And ADD this after } at the end of script <mark>| tee -a "$LOGFILE"</mark>
 ## Result
-<img width="753" height="150" alt="Screenshot 2025-07-26 at 8 43 02 PM" src="https://github.com/user-attachments/assets/b80e9b3a-3aef-443a-83f6-65c4f6385e57" />
+<img width="549" height="189" alt="Screenshot 2025-07-26 at 8 43 56 PM" src="https://github.com/user-attachments/assets/e6222c5d-474c-412d-a000-c640ea8d8da8" />
+
