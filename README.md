@@ -15,9 +15,10 @@ simple and lightweight
 | **Battery**    | `pmset -g batt \| grep -Eo "\d+%"`     | Gets current battery percentage on MacBook      |
 
 ## Add ON
-  - U can edit the lastest part of the script by Add this at the end of script to save loged in .txt files
+  - U can edit part of the script by Add this to save log file 
     1. by ADD ing this at the top of the file : <mark>LOGFILE="DIRECTORY/FILENAME$(date +%F).log" >> $(date+%F) Optional File.log</mark>
     2. And ADD this after } at the end of script <mark>| tee -a "$LOGFILE"</mark>
+    
 ## Result
 <img width="549" height="189" alt="Screenshot 2025-07-26 at 8 43 56 PM" src="https://github.com/user-attachments/assets/e6222c5d-474c-412d-a000-c640ea8d8da8" />
 
