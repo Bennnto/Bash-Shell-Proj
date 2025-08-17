@@ -35,7 +35,7 @@ done
 
 
 ### Optional Information
-This is the information that I'm interested to put it in this .md file
+This is the information that I'm interested to put it in this .md file\
 for more info about format and Other functions of `https://wttr.in` go to [more info](https://github.com/chubin/wttr.in)\
     - Optional format To specify your own custom output format, use the special %-notation:
 
