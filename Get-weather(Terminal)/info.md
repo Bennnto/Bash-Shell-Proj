@@ -45,7 +45,7 @@ for more info about format and Other functions of `https://wttr.in` go to [more 
 
 ```
     Example format :  `curl -s "https//wttr.in/Toronto?format=%l: %C+%h+%m+%w`
-    [![exampleoutput](https://postimg.cc/kB3NVmvC)]
+    [exampleoutput](https://postimg.cc/kB3NVmvC)
     c :   Weather condition,
     C :   Weather condition textual name,
     x :   Weather condition, plain-text symbol,
