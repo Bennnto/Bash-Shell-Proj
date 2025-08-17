@@ -1,4 +1,4 @@
-# 🐚 SHELL SCRIPTING PLAYGROUN
+# 🐚 SHELL SCRIPTING PLAYGROUND
   - This repository is using to collect my practiced project for Bash Shell scripting
 ## 💁🏻 HOW TO ACCESS
   - This repository have a sub-directories that named by the project name or function of that project
