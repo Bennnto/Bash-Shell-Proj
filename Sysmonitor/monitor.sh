@@ -1,5 +1,5 @@
 #!/bin/bash
-
+https://github.com/Bennnto/simple_system_monitor_Bash/tree/main
 // Add on add here ""
 # CPU USAGE
 cpu_usage=$(top -l 1 | grep "CPU usage" | awk '{print $3}' | sed 's/%//')
