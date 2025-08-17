@@ -43,9 +43,11 @@ This is the information that I'm interested to put it in this .md file\
 for more info about format and Other functions of `https://wttr.in` go to [more info](https://github.com/chubin/wttr.in)\
     - Optional format To specify your own custom output format, use the special %-notation:
 
-```
+
     Example format :  `curl -s "https//wttr.in/Toronto?format=%l: %C+%h+%m+%w`
-    [exampleoutput](https://drive.google.com/file/d/1gEawe8zRWQpfejVJRPuLeb5kj7_rEYo6/view?usp=drive_link)
+    ![Example-output0](https://drive.google.com/file/d/1gEawe8zRWQpfejVJRPuLeb5kj7_rEYo6/view?usp=drive_link)
+
+```	
     c :   Weather condition,
     C :   Weather condition textual name,
     x :   Weather condition, plain-text symbol,
@@ -61,6 +63,6 @@ for more info about format and Other functions of `https://wttr.in` go to [more 
     u :   UV index (1-12),
 ```
 #### Output Result
-![Example-output](https://postimg.cc/SJnWtKQc)
+![Example-output](https://drive.google.com/file/d/1slRgb3glCj7ytOkeAeJlho_53qpJGOqZ/view?usp=sharing)
     
 
