@@ -5,4 +5,8 @@
   - In each sub-directories contain with
       1. (.sh) file that is the script file 
       2. (.me) file that is the info or instruction how to use each script
-_______________________________________________________________________________________________________________________________________________________
+### Lists of Projects
+| No. |     Project     |         function             | 
+|-----|-----------------|------------------------------|
+| 1.  | System Monitor  | Terminal System Monitor      |
+| 2.  | Get Weather Info| Get Weather info in Terminal |
