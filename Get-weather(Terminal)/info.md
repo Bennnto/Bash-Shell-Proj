@@ -4,14 +4,15 @@
 | #  |   Script    |             Use                                                                |
 |----|-------------|--------------------------------------------------------------------------------|
 | 1  | `CITIES`    | Identified city to get information can be 1 or more than 1 cities              |
-| 2  | `INTERVAL`  | Use to specific time to refresh information from `https://wttr.in`             |
+| 2  | `INTERVAL`  | Use to specific time to refresh information from `https://wttr.in` 10 = 10 second |
 | 3  | `While true`| Infinity Loop to let this script run and refresh data according to interval set|
 | 4  | `Clear`     | Clear Screen everytime that re-run the script |
 | 5  | `for`       | Let script to get infomation more than one city city in set of CITIES |
 | 6  | `echo`      | Display information in this format "weather for Toronto (ASCII):" |
 | 7  | `curl -s`   | Use curl -s to get information weather in signle line format |
-| 8  | `curl       | Use curl to get information in ASCII format and get only current weather information| 
-
+| 8  | `curl`     | Use curl to get information in ASCII format and get only current weather information| 
+| 9  | `done`     | End while loop|
+| 10 | `Sleep`    | Count and Waiting according to preset internal
 ```
 CITIES="Toronto Vancouver Bangkok Tokyo" #1
 INTERVAL=10 #2 
@@ -34,10 +35,10 @@ done
 
 
 ### Optional Information
-This is the information that I'm interested to put it in this .md file \
+This is the information that I'm interested to put it in this .md file
 for more info about format and Other functions of `https://wttr.in` go to [more info](https://github.com/chubin/wttr.in)\
-    - Optional format To specify your own custom output format, use the special %-notation:\
- 
+    - Optional format To specify your own custom output format, use the special %-notation:
+
 ```
     Example format :  `curl -s "https//wttr.in/Toronto?format=%l: %C+%h+%m+%w`
     ![exampleoutput](https://postimg.cc/kB3NVmvC)
