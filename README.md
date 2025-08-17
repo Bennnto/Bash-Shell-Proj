@@ -8,5 +8,5 @@
 ### Lists of Projects
 | No. |     Project     |         function             |   Link                                |
 |-----|-----------------|------------------------------|---------------------------------------|
-| 1.  | System Monitor  | Terminal System Monitor      |[To repo](shorturl.at/Ac4Lx)           |
+| 1.  | System Monitor  | Terminal System Monitor      |[To repo](https://shorturl.at/Ac4Lx)   |
 | 2.  | Get Weather Info| Get Weather info in Terminal |[To repo](https://shorturl.at/Z8PRZ)   |
