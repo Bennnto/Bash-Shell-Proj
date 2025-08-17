@@ -1,5 +1,9 @@
 # Get Weather by Terminal 
   - Get weather infomation in terminal easy and simple scripting by using 'https://wttr.in'
+  - Download .sh file
+  - Open your terminal navigate to directory that store .sh file
+  - run `chmod +x weather.sh` (in case you cannot execute this script try to run this first)
+  - run `bash weather.sh || ./weather.sh`
 ## Script Info 
 | #  |   Script    |             Use                                                                |
 |----|-------------|--------------------------------------------------------------------------------|
@@ -56,6 +60,7 @@ for more info about format and Other functions of `https://wttr.in` go to [more 
     P :   Pressure (hPa),
     u :   UV index (1-12),
 ```
-
+#### Output Result
+![Example-output](https://postimg.cc/SJnWtKQc)
     
 
