@@ -44,7 +44,7 @@ for more info about format and Other functions of `https://wttr.in` go to [more 
     - Optional format To specify your own custom output format, use the special %-notation:
 
    	 Example format :  `curl -s "https//wttr.in/Toronto?format=%l: %C+%h+%m+%w` 
-    ![Example-output0](https://drive.google.com/file/d/1gEawe8zRWQpfejVJRPuLeb5kj7_rEYo6/view?usp=drive_link)
+	<img src="https://drive.google.com/file/d/1slRgb3glCj7ytOkeAeJlho_53qpJGOqZ/view?usp=drive_link" alt="example format">
 
 
 
