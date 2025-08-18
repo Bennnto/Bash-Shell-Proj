@@ -44,8 +44,8 @@ for more info about format and Other functions of `https://wttr.in` go to [more 
     - Optional format To specify your own custom output format, use the special %-notation:
 
    	 Example format :  `curl -s "https//wttr.in/Toronto?format=%l: %C+%h+%m+%w`
-	<img src="https://drive.google.com/file/d/1slRgb3glCj7ytOkeAeJlho_53qpJGOqZ/view?usp=drive_link" alt="example format">
 
+Example format image [![FmNpveV.md.png](https://iili.io/FmNpveV.md.png)](https://freeimage.host/i/FmNpveV)
 
 
 ```	
@@ -64,6 +64,6 @@ for more info about format and Other functions of `https://wttr.in` go to [more 
     u :   UV index (1-12),
 ```
 #### Output Result
-![Example-output](https://freeimage.host/i/FmNzCYB)
+[![FmO2vkJ.md.png](https://iili.io/FmO2vkJ.md.png)](https://freeimage.host/i/FmO2vkJ)
     
 
