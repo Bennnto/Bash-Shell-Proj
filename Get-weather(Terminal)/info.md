@@ -64,6 +64,6 @@ for more info about format and Other functions of `https://wttr.in` go to [more 
     u :   UV index (1-12),
 ```
 #### Output Result
-![Example-output](https://freeimage.host/i/FmNzCYB))
+[Example-output](https://freeimage.host/i/FmNzCYB)
     
 
